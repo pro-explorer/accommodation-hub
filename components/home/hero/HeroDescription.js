@@ -36,7 +36,7 @@ const HeroDescription = () => {
         <div>
           <Button
             className="px-[18px] py-[13px]"
-            onClick={() => window.open("/tours", "_self")}
+            onClick={() => window.open("/accommodations", "_self")}
           >
             Browse Listings
           </Button>
