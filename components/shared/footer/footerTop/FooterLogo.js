@@ -24,7 +24,7 @@ const FooterLogo = () => {
         <Logo />
         <p className="text-xs md:block hidden">
           Your ultimate platform for finding verified off-campus accommodation.
-          Catering to students' needs, it offers a wide range of listings,
+          Catering to students&apos; needs, it offers a wide range of listings,
           including apartments, shared housing, villas, and hostels, ensuring a
           secure and convenient booking experience.
         </p>
