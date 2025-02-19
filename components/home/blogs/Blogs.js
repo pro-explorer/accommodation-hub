@@ -46,8 +46,8 @@ const Blogs = () => {
               </h1>
               <p className="text-base">
                 Explore affordable and comfortable housing options for students
-                and travelers. Whether you're looking for a cozy room near the
-                university or a full house, we have you covered.
+                and travelers. Whether you&apos;re looking for a cozy room near
+                the university or a full house, we have you covered.
               </p>
             </article>
           </div>

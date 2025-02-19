@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on NewsLetter
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 07, October 2023
- */
-
 import Button from "@/components/shared/button/Button";
 import Container from "@/components/shared/container/Container";
 import LoadImage from "@/components/shared/image/LoadImage";
@@ -56,21 +41,23 @@ const NewsLetter = () => {
                       className="rounded-[5px] object-cover h-[35px] w-[35px] border border-primary"
                     />
                     <div className="flex flex-col gap-y-1">
-                      <h2 className="text-base line-clamp-1">North Atlantic</h2>
+                      <h2 className="text-base line-clamp-1">
+                        Oceanfront Paradise
+                      </h2>
                       <p className="flex flex-row gap-x-0.5 items-center text-xs line-clamp-1">
-                        <BiHotel className="w-4 h-4 text-primary" /> Hotel of
-                        Iceland
+                        <BiHotel className="w-4 h-4 text-primary" /> Beachfront
+                        Resort
                       </p>
                     </div>
                   </article>
                   <p className="text-xs flex flex-row justify-between items-center whitespace-nowrap">
                     <span className="flex flex-row gap-x-0.5 items-baseline">
                       Start from $
-                      <span className="text-sm text-primary">120</span>
+                      <span className="text-sm text-primary">150</span>
                     </span>
                     <span className="min-w-[1rem]" />
                     <span className="border px-3 py-0.5 rounded-secondary">
-                      2 Days & 2 Nights
+                      3 Days & 2 Nights
                     </span>
                   </p>
                 </div>
@@ -94,19 +81,21 @@ const NewsLetter = () => {
             />
             <article className="flex flex-col gap-y-4 h-full">
               <h2 className="lg:text-4xl md:text-2xl text-xl z-50">
-                Prepare Yourself & Explore The Beauty Of The World
+                Find Your Perfect Stay and Explore New Destinations
               </h2>
               <p className="text-sm">
-                We&apos;ll send you exclusive offer and sneak peeks of our best
-                deals. Plus travel tips and the latest advice on where you can
-                go{" "}
+                Subscribe for exclusive updates on the best accommodations,
+                special offers, and new arrivals. Get the latest news on luxury
+                stays, hidden gems, and more!
               </p>
               <label
                 htmlFor="newsletter"
                 className="mt-auto flex flex-row gap-x-2 z-50"
               >
                 {visible ? (
-                  <span className="text-primary drop-shadow">You are Successfully Subscribed!</span>
+                  <span className="text-primary drop-shadow">
+                    You're Subscribed for Exclusive Deals!
+                  </span>
                 ) : (
                   <>
                     <input
@@ -114,14 +103,14 @@ const NewsLetter = () => {
                       name="newsletter"
                       id="newsletter"
                       disabled={visible}
-                      placeholder="Enter your email"
+                      placeholder="Enter your email to subscribe"
                       className="w-full rounded border-1 border-primary text-sm z-50"
                     />
                     <Button
                       className="px-4 py-1 text-xs"
                       onClick={() => setVisible(true)}
                     >
-                      Subscribe
+                      Subscribe Now
                     </Button>
                   </>
                 )}
