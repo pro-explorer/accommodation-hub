@@ -23,15 +23,14 @@ const HeroDescription = () => {
       <article className="flex flex-col gap-y-12">
         <div className="flex flex-col gap-y-8">
           <h1 className="lg:text-7xl md:text-5xl text-3xl whitespace-normal">
-            Find Your Perfect <HighlightText>Accommodation</HighlightText>{" "}
-            Experience
+            Find Verified <HighlightText>Student Accommodation</HighlightText>
           </h1>
           <p className="text-base">
-            Browse our curated collection of hotels, resorts, villas, and more.{" "}
-            <br /> Whether you&apos;re looking for a romantic getaway, a family
-            vacation, or a business trip, we have the perfect place for you.{" "}
-            <br /> Let us help you book the ideal accommodation for a memorable
-            stay.
+            Secure off-campus housing with ease. Browse verified listings, apply
+            for rooms, and connect with landlords. <br /> Our platform ensures
+            transparency, security, and convenience for Harare Institute of
+            Technology (HIT) students. <br /> Say goodbye to scams and
+            unreliable listings—find your ideal student accommodation today.
           </p>
         </div>
         <div>
@@ -39,7 +38,7 @@ const HeroDescription = () => {
             className="px-[18px] py-[13px]"
             onClick={() => window.open("/tours", "_self")}
           >
-            Discover Accommodations
+            Browse Listings
           </Button>
         </div>
       </article>
