@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on AllReviews
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 05, February 2024
- */
-
 import React, { useEffect, useMemo, useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { RiChatQuoteFill } from "react-icons/ri";
@@ -37,8 +22,11 @@ const animation = { duration: 50000, easing: (t) => t };
 const AllReviews = ({ className }) => {
   const { handleSubmit, control, reset } = useForm();
   const [isOpen, setIsOpen] = useState(false);
-  const rent = useSelector((state) => state?.rent);
-  const reviews = useMemo(() => rent?.reviews || [], [rent?.reviews]);
+  const accommodation = useSelector((state) => state?.accommodation);
+  const reviews = useMemo(
+    () => accommodation?.reviews || [],
+    [accommodation?.reviews]
+  );
   const user = useSelector((state) => state?.user);
   const [addReview, { isLoading, data, error }] = useAddReviewMutation();
 
@@ -99,7 +87,7 @@ const AllReviews = ({ className }) => {
   });
 
   const handleAddReview = (data) => {
-    addReview({ ...data, rent: rent?._id });
+    addReview({ ...data, accommodation: accommodation?._id });
   };
 
   return (
@@ -109,7 +97,7 @@ const AllReviews = ({ className }) => {
           <div className="flex flex-row justify-between items-center">
             <article className="flex flex-col gap-y-4">
               <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-                <HighlightText>Traveler&apos;s</HighlightText> Review
+                <HighlightText>Student&apos;s</HighlightText> Review
                 <LoadImage
                   src="/assets/home-page/destination/underline.svg"
                   alt="arrow"
@@ -119,7 +107,7 @@ const AllReviews = ({ className }) => {
                 />
               </h1>
               <p className="text-base">
-                Discover the Impact of Our Products and Services Through Their
+                Discover the Impact of Our Accommodations Through Their
                 Testimonials
               </p>
             </article>
@@ -153,7 +141,7 @@ const AllReviews = ({ className }) => {
                       <div className="">
                         <h2 className="">{review?.reviewer?.name}</h2>
                         <p className="text-xs whitespace-normal">
-                          Traveler, {review?.reviewer?.address || "N/A"}
+                          Student, {review?.reviewer?.address || "N/A"}
                         </p>
                       </div>
                       <div className="flex flex-col items-end">

@@ -23,51 +23,49 @@ const FAQ = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const faqs = [
     {
-      question: "What are some essential items to pack for a trip?",
+      question: "What types of student accommodation are available?",
       answer:
-        "Consider packing essentials such as travel documents, toiletries, clothing suitable for the destination's weather, chargers, and any necessary medications. Don't forget adaptors for electrical outlets if you're traveling internationally.",
+        "AccommodationHub offers a range of student-friendly options, including private rooms, shared apartments, and university dormitories. We focus on providing safe, affordable, and convenient living spaces for students near their campuses.",
     },
     {
-      question:
-        "How far in advance should I book my flights and accommodation?",
+      question: "How can I find accommodation near my school?",
       answer:
-        "It's advisable to book flights at least a few weeks in advance to secure better prices. Accommodation should also be booked in advance, especially during peak seasons, to ensure availability and potentially get lower rates.",
+        "You can easily search for accommodation based on your school's location. Our platform allows you to filter options by proximity to your campus, budget, and other essential features like Wi-Fi, security, and study spaces.",
     },
     {
-      question: "How can I stay organized during travel?",
+      question: "What is the booking process like?",
       answer:
-        "Use travel apps for itinerary management, pack strategically with packing cubes, and keep important documents together. It's also helpful to have a checklist to ensure nothing is forgotten.",
+        "Booking accommodation through AccommodationHub is simple. You can browse listings, contact property owners or managers directly, and secure your space with a few clicks. We also provide guidance throughout the booking process to ensure a smooth experience.",
     },
     {
-      question: "What's the best way to manage finances while traveling?",
+      question: "Is the accommodation furnished?",
       answer:
-        "Inform your bank about your travel dates to avoid any issues with your credit/debit cards. Consider carrying a mix of cash and cards. Use secure ATMs, and keep a record of your transactions. Travel insurance can also provide financial protection.",
+        "Most accommodations listed on our platform are fully furnished, including essential items like beds, desks, chairs, and storage. We provide details for each listing to help you understand exactly what is provided.",
     },
     {
-      question: "How do I stay healthy during a trip?",
+      question: "Can I find accommodation for short-term stays?",
       answer:
-        "Stay hydrated, get enough rest, and be mindful of what you eat. Carry a basic first aid kit, including any necessary medications. If traveling to a new time zone, adjust your sleep schedule gradually to minimize jet lag.",
+        "Yes, we offer flexible accommodation options for short-term stays, including accommodations for semester-based or summer school periods. You can filter by duration to find the perfect place for your needs.",
     },
     {
-      question: "What safety precautions should I take when traveling solo?",
+      question: "How do I know the accommodation is safe?",
       answer:
-        "Inform someone about your itinerary and check in regularly. Stay in well-reviewed accommodations, be cautious with alcohol consumption, and trust your instincts. Keep emergency contacts handy and know the local emergency numbers.",
+        "We prioritize student safety by listing only verified accommodations with positive reviews from previous tenants. You can also view detailed information about the property's security features, including surveillance, on-site staff, and access control.",
     },
     {
-      question:
-        "How can I immerse myself in the local culture while traveling?",
+      question: "Are utilities like electricity and water included?",
       answer:
-        "Explore local markets, try traditional foods, and engage with locals. Learn a few basic phrases in the local language, participate in cultural activities, and be respectful of local customs and traditions.",
+        "Many listings on AccommodationHub include utilities such as electricity, water, and internet. We provide clear information about what's included in the rent for each listing, so you know what to expect.",
     },
     {
-      question: "How can I minimize my environmental impact while traveling?",
+      question: "How do I pay for the accommodation?",
       answer:
-        "Use reusable water bottles and bags, opt for eco-friendly accommodations, and choose sustainable transportation options when possible. Respect local wildlife and natural environments, and dispose of waste responsibly.",
+        "Payment options vary by listing. Most accommodations accept bank transfers, credit card payments, or online payment systems. We ensure that all transactions are secure and transparent for your peace of mind.",
     },
     {
-      question: "What should I do in case of an emergency during my travels?",
+      question: "What if I need help with my accommodation?",
       answer:
-        "Keep a list of emergency contacts, know the location of the nearest embassy or consulate, and have a copy of important documents (passport, ID). Familiarize yourself with local emergency services and have travel insurance for medical emergencies.",
+        "If you encounter any issues with your accommodation or booking process, our support team is available to assist you. You can reach us through our website, and we’ll help resolve any concerns promptly.",
     },
   ];
 
@@ -81,7 +79,8 @@ const FAQ = () => {
         <div className="w-full h-full flex flex-col gap-y-12">
           <article className="flex flex-col gap-y-4">
             <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-              <HighlightText>F.A.Q.</HighlightText> from Travellers
+              <HighlightText>F.A.Q.</HighlightText> for Students Looking for
+              Accommodation
               <LoadImage
                 src="/assets/home-page/destination/underline.svg"
                 alt="arrow"
@@ -91,7 +90,8 @@ const FAQ = () => {
               />
             </h1>
             <p className="text-base">
-              Frequently Asked Questions from travelers about this tour
+              Frequently Asked Questions from students about accommodation
+              options during their school stay.
             </p>
           </article>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
@@ -139,9 +139,7 @@ function Card({ index, faq, isExpanded, onToggleCollapse }) {
       {isExpanded && (
         <div className="absolute top-8 left-0 w-full z-50 border p-4 rounded bg-white mt-2">
           <h2 className="mb-2 text-base">{faq.question}</h2>
-          <p className="text-sm">
-            {faq.answer}
-          </p>
+          <p className="text-sm">{faq.answer}</p>
           <span className="triangle absolute -top-3 right-2" />
 
           <style js>
