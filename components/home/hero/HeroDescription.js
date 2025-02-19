@@ -28,7 +28,7 @@ const HeroDescription = () => {
           </h1>
           <p className="text-base">
             Browse our curated collection of hotels, resorts, villas, and more.{" "}
-            <br /> Whether you're looking for a romantic getaway, a family
+            <br /> Whether you&apos;re looking for a romantic getaway, a family
             vacation, or a business trip, we have the perfect place for you.{" "}
             <br /> Let us help you book the ideal accommodation for a memorable
             stay.

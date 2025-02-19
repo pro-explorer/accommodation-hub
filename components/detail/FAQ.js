@@ -30,7 +30,7 @@ const FAQ = () => {
     {
       question: "How can I find accommodation near my school?",
       answer:
-        "You can easily search for accommodation based on your school's location. Our platform allows you to filter options by proximity to your campus, budget, and other essential features like Wi-Fi, security, and study spaces.",
+        "You can easily search for accommodation based on your school&apos;s location. Our platform allows you to filter options by proximity to your campus, budget, and other essential features like Wi-Fi, security, and study spaces.",
     },
     {
       question: "What is the booking process like?",
@@ -50,12 +50,12 @@ const FAQ = () => {
     {
       question: "How do I know the accommodation is safe?",
       answer:
-        "We prioritize student safety by listing only verified accommodations with positive reviews from previous tenants. You can also view detailed information about the property's security features, including surveillance, on-site staff, and access control.",
+        "We prioritize student safety by listing only verified accommodations with positive reviews from previous tenants. You can also view detailed information about the property&apos;s security features, including surveillance, on-site staff, and access control.",
     },
     {
       question: "Are utilities like electricity and water included?",
       answer:
-        "Many listings on AccommodationHub include utilities such as electricity, water, and internet. We provide clear information about what's included in the rent for each listing, so you know what to expect.",
+        "Many listings on AccommodationHub include utilities such as electricity, water, and internet. We provide clear information about what&apos;s included in the rent for each listing, so you know what to expect.",
     },
     {
       question: "How do I pay for the accommodation?",
