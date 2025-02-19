@@ -58,8 +58,9 @@ const DestinationDescription = () => {
             />
           </h1>
           <p className="text-base">
-            Here are some of our most popular destinations where you can <br />{" "}
-            find our tours and experiences.
+            Discover the best student and traveler accommodations. From cozy
+            rooms to spacious houses, we offer a variety of housing options that
+            cater to different needs and budgets.
           </p>
         </article>
       </div>

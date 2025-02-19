@@ -10,7 +10,7 @@
  * Pinterest: https://pinterest.com/devhasibulislam
  * WhatsApp: https://wa.me/8801906315901
  * Telegram: devhasibulislam
- * Date: 04, October 2023
+ * Date: 04, October 2024
  */
 
 import LoadImage from "@/components/shared/image/LoadImage";
@@ -22,66 +22,66 @@ const BlogPosts = () => {
   const posts = [
     {
       thumbnail: "/assets/static/Blogs & Guides/1.png",
-      title: "Life's beauty lies in the journey, not the end",
+      title: "Ocean View Beach House",
       summary:
-        "Life's symphony of wonders unfolds as we traverse its path, yet we tend to fixate.",
-      createdAt: "20 July 2023",
+        "Experience luxury by the beach with breathtaking ocean views and top-notch amenities.",
+      createdAt: "20 July 2024",
       featured: true,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/2.png",
-      title: "Top 3 Must Do Tours In Bali 2023",
+      title: "Mountain Retreat Villa",
       summary:
-        "Explore the mystical beauty of Buds' ancient temples and lush rice terraces on a captivating cultural tour.",
-      createdAt: "22 July 2023",
+        "Escape to the mountains and relax in this serene, fully-equipped villa with stunning views.",
+      createdAt: "22 July 2024",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/3.png",
-      title: "Best Restaurant in Maldives",
+      title: "Modern Downtown Loft",
       summary:
-        "Test the mystical beauty of foods and lush rice terraces on a captivating cultural tour.",
-      createdAt: "24 July 2023",
+        "A stylish loft located in the heart of the city, perfect for urban adventurers.",
+      createdAt: "24 July 2024",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/4.png",
-      title: "Life is a Darling Adventure Here",
+      title: "Cozy Countryside Cottage",
       summary:
-        "The picturesque village nestled among lush green hills offered a serene escape from the bustling city life.",
-      createdAt: "26 July 2023",
+        "Enjoy the peaceful countryside with this charming cottage that offers a cozy escape.",
+      createdAt: "26 July 2024",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/5.png",
-      title: "Life's beauty lies in the journey, not the end",
+      title: "Ocean View Beach House",
       summary:
-        "Life's symphony of wonders unfolds as we traverse its path, yet we tend to fixate.",
-      createdAt: "20 July 2023",
+        "Experience luxury by the beach with breathtaking ocean views and top-notch amenities.",
+      createdAt: "20 July 2024",
       featured: true,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/6.png",
-      title: "Top 3 Must Do Tours In Bali 2023",
+      title: "Mountain Retreat Villa",
       summary:
-        "Explore the mystical beauty of Buds' ancient temples and lush rice terraces on a captivating cultural tour.",
-      createdAt: "22 July 2023",
+        "Escape to the mountains and relax in this serene, fully-equipped villa with stunning views.",
+      createdAt: "22 July 2024",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/7.png",
-      title: "Best Restaurant in Maldives",
+      title: "Modern Downtown Loft",
       summary:
-        "Test the mystical beauty of foods and lush rice terraces on a captivating cultural tour.",
-      createdAt: "24 July 2023",
+        "A stylish loft located in the heart of the city, perfect for urban adventurers.",
+      createdAt: "24 July 2024",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/8.png",
-      title: "Life is a Darling Adventure Here",
+      title: "Cozy Countryside Cottage",
       summary:
-        "The picturesque village nestled among lush green hills offered a serene escape from the bustling city life.",
-      createdAt: "26 July 2023",
+        "Enjoy the peaceful countryside with this charming cottage that offers a cozy escape.",
+      createdAt: "26 July 2024",
       featured: false,
     },
   ];

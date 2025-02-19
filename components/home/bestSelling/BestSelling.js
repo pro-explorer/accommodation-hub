@@ -51,8 +51,8 @@ const BestSelling = ({ className }) => {
                 />
               </h1>
               <p className="text-base">
-                Here are some of our best selling tours across all of our
-                destinations
+                Here are some of our best-selling accommodations across all of
+                our destinations
               </p>
             </article>
             <div className="text-primary border-b-2 border-b-transparent hover:border-b-primary transition-all">

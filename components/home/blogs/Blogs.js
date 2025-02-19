@@ -45,9 +45,9 @@ const Blogs = () => {
                 />
               </h1>
               <p className="text-base">
-                Maldives reopens for tourism, offering stunning beaches and
-                turquoise waters. Travel enriches lives, fostering personal
-                growth.
+                Explore affordable and comfortable housing options for students
+                and travelers. Whether you're looking for a cozy room near the
+                university or a full house, we have you covered.
               </p>
             </article>
           </div>

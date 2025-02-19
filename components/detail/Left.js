@@ -406,7 +406,7 @@ function Checkout({ rent, setIsOpen, members }) {
       ) : (
         <section className="flex flex-col gap-8">
           <article className="h-full w-full flex flex-col gap-y-8">
-            <h1 className="text-xl">Pay Travello Booking</h1>
+            <h1 className="text-xl">Pay Accommodation Booking</h1>
             <div className="flex flex-col gap-y-2">
               <div className="flex flex-col gap-y-1">
                 <span className="flex -space-x-4">

@@ -73,28 +73,32 @@ const Gallery = () => {
 
   const items = [
     {
-      title: "City",
-      images: 17,
+      title: "Hotels",
+      images: 10,
     },
     {
-      title: "Foods",
-      images: 27,
+      title: "Resorts",
+      images: 7,
     },
     {
-      title: "Hotel",
-      images: 21,
+      title: "Apartments",
+      images: 6,
     },
     {
-      title: "Forest",
-      images: 33,
+      title: "Villas",
+      images: 5,
     },
     {
-      title: "Mountains",
-      images: 30,
+      title: "Hostels",
+      images: 4,
     },
     {
-      title: "Sea Beaches",
-      images: 31,
+      title: "Guest Houses",
+      images: 6,
+    },
+    {
+      title: "Beach Houses",
+      images: 4,
     },
   ];
 
@@ -109,7 +113,7 @@ const Gallery = () => {
           <div className="flex flex-col gap-y-12">
             <article className="flex flex-col gap-y-4">
               <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-                <HighlightText>Gallery</HighlightText> Explorer
+                <HighlightText>Accommodation</HighlightText> Gallery
                 <LoadImage
                   src="/assets/home-page/destination/underline.svg"
                   alt="arrow"
@@ -119,8 +123,8 @@ const Gallery = () => {
                 />
               </h1>
               <p className="text-base">
-                Featured photos based on foods, sea-beaches, mountains, forest,
-                hotels and so on.
+                Browse our collection of popular accommodations, including
+                hotels, resorts, apartments, villas, hostels, and guest houses.
               </p>
             </article>
           </div>

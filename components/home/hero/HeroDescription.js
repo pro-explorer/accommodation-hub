@@ -23,15 +23,15 @@ const HeroDescription = () => {
       <article className="flex flex-col gap-y-12">
         <div className="flex flex-col gap-y-8">
           <h1 className="lg:text-7xl md:text-5xl text-3xl whitespace-normal">
-            Transform Your Dreams Into Your{" "}
-            <HighlightText>Memory</HighlightText>
+            Find Your Perfect <HighlightText>Accommodation</HighlightText>{" "}
+            Experience
           </h1>
           <p className="text-base">
-            Discover breathtaking destinations, vibrant cultures, and
-            unforgettable experiences. <br /> Our expert team creates
-            personalized itineraries tailored to your interests. <br /> Let us
-            inspire and guide you as you create timeless memories through the
-            joy of travel.
+            Browse our curated collection of hotels, resorts, villas, and more.{" "}
+            <br /> Whether you're looking for a romantic getaway, a family
+            vacation, or a business trip, we have the perfect place for you.{" "}
+            <br /> Let us help you book the ideal accommodation for a memorable
+            stay.
           </p>
         </div>
         <div>
@@ -39,7 +39,7 @@ const HeroDescription = () => {
             className="px-[18px] py-[13px]"
             onClick={() => window.open("/tours", "_self")}
           >
-            Explore Now
+            Discover Accommodations
           </Button>
         </div>
       </article>
