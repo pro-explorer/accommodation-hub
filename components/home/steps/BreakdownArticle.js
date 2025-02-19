@@ -14,8 +14,9 @@
  */
 
 import React from "react";
-import { BiCar } from "react-icons/bi";
-import { MdLocationCity, MdPayment } from "react-icons/md";
+import { BiHome } from "react-icons/bi";
+import { MdPayment } from "react-icons/md";
+import { IoIosContact } from "react-icons/io"; // Make sure to import IoIosContact
 
 const BreakdownArticle = () => {
   const items = [
