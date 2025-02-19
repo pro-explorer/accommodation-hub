@@ -94,7 +94,7 @@ const NewsLetter = () => {
               >
                 {visible ? (
                   <span className="text-primary drop-shadow">
-                    You're Subscribed for Exclusive Deals!
+                    You&apos;re Subscribed for Exclusive Deals!
                   </span>
                 ) : (
                   <>
