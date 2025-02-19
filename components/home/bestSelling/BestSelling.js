@@ -57,7 +57,7 @@ const BestSelling = ({ className }) => {
             </article>
             <div className="text-primary border-b-2 border-b-transparent hover:border-b-primary transition-all">
               <Link
-                href="/tours"
+                href="/accommodations"
                 className="flex flex-row gap-x-1 items-center whitespace-nowrap"
               >
                 See More <BiRightArrowAlt />

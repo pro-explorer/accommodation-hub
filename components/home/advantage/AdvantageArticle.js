@@ -23,52 +23,52 @@ const AdvantageArticle = () => {
       icon: (
         <LoadImage
           src={"/assets/home-page/advantage/earth.svg"}
-          alt={"earth"}
+          alt={"Verified accommodation"}
           height={60}
           width={60}
           className="border border-primary shadow-lg rounded-full"
         />
       ),
-      title: "Safe, Fun & Unique Experience",
+      title: "Safe & Verified Listings",
       description:
-        "Your safety and the amount of fun you have with us is our top priority. You will be treated like family and enjoy a once in a lifetime experience that you will never forget.",
+        "All accommodations listed on our platform are verified to ensure your safety and comfort, giving you peace of mind during your stay.",
     },
     {
       _id: 2,
       icon: (
         <LoadImage
           src={"/assets/home-page/advantage/smile.svg"}
-          alt={"smile"}
+          alt={"Happy students"}
           height={60}
           width={60}
           className="border border-primary shadow-lg rounded-full"
         />
       ),
-      title: "Over 10,000 Happy Guests",
+      title: "Community of Happy Students",
       description:
-        "Don’t just take our word for it. Feel free to read online review from thousands of our happy guests that loves our tours. Our guests always come first.",
+        "Join a thriving community of students who have found their perfect off-campus housing. Read reviews and connect with fellow tenants.",
     },
     {
       _id: 3,
       icon: (
         <LoadImage
           src={"/assets/home-page/advantage/star.svg"}
-          alt={"star"}
+          alt={"All-inclusive services"}
           height={60}
           width={60}
           className="border border-primary shadow-lg rounded-full"
         />
       ),
-      title: "All-Inclusive Tours",
+      title: "All-Inclusive Experience",
       description:
-        "Our tours are 100% stress-free so you can fully enjoy your experience. Once paid you don’t have to worry about being nickel and dimed along the way. Leave your wallet at home.",
+        "Our platform offers a seamless booking process with no hidden fees. Enjoy a stress-free experience as you find your ideal accommodation.",
     },
   ];
 
   return (
     <article className="flex flex-col gap-y-8">
       <h2 className="lg:text-4xl md:text-3xl text-2xl">
-        To Explore The New Adventure
+        Explore Your Perfect Home Away From Home
         <LoadImage
           src={"/assets/home-page/advantage/line.svg"}
           alt={"line"}
