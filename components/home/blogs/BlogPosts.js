@@ -22,66 +22,66 @@ const BlogPosts = () => {
   const posts = [
     {
       thumbnail: "/assets/static/Blogs & Guides/1.png",
-      title: "Ocean View Beach House",
+      title: "Finding Safe & Affordable Student Housing",
       summary:
-        "Experience luxury by the beach with breathtaking ocean views and top-notch amenities.",
-      createdAt: "20 July 2024",
+        "A guide to securing verified and budget-friendly off-campus accommodation near HIT.",
+      createdAt: "15 February 2025",
       featured: true,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/2.png",
-      title: "Mountain Retreat Villa",
+      title: "Tips for First-Time Renters",
       summary:
-        "Escape to the mountains and relax in this serene, fully-equipped villa with stunning views.",
-      createdAt: "22 July 2024",
+        "Essential advice for students renting accommodation for the first time.",
+      createdAt: "12 February 2025",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/3.png",
-      title: "Modern Downtown Loft",
+      title: "Avoiding Rental Scams",
       summary:
-        "A stylish loft located in the heart of the city, perfect for urban adventurers.",
-      createdAt: "24 July 2024",
-      featured: false,
+        "Learn how to identify and avoid fraudulent landlords and fake listings.",
+      createdAt: "10 February 2025",
+      featured: true,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/4.png",
-      title: "Cozy Countryside Cottage",
+      title: "Best Areas to Stay Near HIT",
       summary:
-        "Enjoy the peaceful countryside with this charming cottage that offers a cozy escape.",
-      createdAt: "26 July 2024",
+        "A breakdown of the safest and most convenient neighborhoods for students.",
+      createdAt: "08 February 2025",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/5.png",
-      title: "Ocean View Beach House",
+      title: "How to Choose the Right Roommate",
       summary:
-        "Experience luxury by the beach with breathtaking ocean views and top-notch amenities.",
-      createdAt: "20 July 2024",
+        "Finding a compatible roommate can make or break your student experience. Here's how to choose wisely.",
+      createdAt: "06 February 2025",
       featured: true,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/6.png",
-      title: "Mountain Retreat Villa",
+      title: "Understanding Lease Agreements",
       summary:
-        "Escape to the mountains and relax in this serene, fully-equipped villa with stunning views.",
-      createdAt: "22 July 2024",
+        "Breaking down the key terms and conditions students should know before signing a lease.",
+      createdAt: "04 February 2025",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/7.png",
-      title: "Modern Downtown Loft",
+      title: "Budgeting for Off-Campus Living",
       summary:
-        "A stylish loft located in the heart of the city, perfect for urban adventurers.",
-      createdAt: "24 July 2024",
+        "A step-by-step guide on managing expenses while renting as a student.",
+      createdAt: "02 February 2025",
       featured: false,
     },
     {
       thumbnail: "/assets/static/Blogs & Guides/8.png",
-      title: "Cozy Countryside Cottage",
+      title: "Furnishing Your Student Apartment on a Budget",
       summary:
-        "Enjoy the peaceful countryside with this charming cottage that offers a cozy escape.",
-      createdAt: "26 July 2024",
+        "Affordable ways to set up your new place without breaking the bank.",
+      createdAt: "30 January 2025",
       featured: false,
     },
   ];

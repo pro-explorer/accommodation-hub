@@ -35,7 +35,7 @@ const Blogs = () => {
           <div className="flex flex-col gap-y-12">
             <article className="flex flex-col gap-y-4">
               <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-                <HighlightText>Blogs</HighlightText> & Guide&apos;s
+                <HighlightText>Student Housing</HighlightText> Blogs & Guides
                 <LoadImage
                   src="/assets/home-page/destination/underline.svg"
                   alt="arrow"
@@ -45,9 +45,9 @@ const Blogs = () => {
                 />
               </h1>
               <p className="text-base">
-                Explore affordable and comfortable housing options for students
-                and travelers. Whether you&apos;re looking for a cozy room near
-                the university or a full house, we have you covered.
+                Discover expert tips, safety guidelines, and the best rental
+                options near Harare Institute of Technology. Our guides help you
+                find the perfect off-campus accommodation with ease.
               </p>
             </article>
           </div>
