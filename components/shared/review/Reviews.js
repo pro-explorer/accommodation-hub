@@ -93,7 +93,7 @@ const Reviews = ({ className }) => {
         <div className="w-full h-full flex flex-col gap-y-12">
           <article className="flex flex-col gap-y-4">
             <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-              <HighlightText>Traveller&apos;s</HighlightText> Review
+              <HighlightText>Student&apos;s</HighlightText> Review
               <LoadImage
                 src="/assets/home-page/destination/underline.svg"
                 alt="arrow"
@@ -103,8 +103,8 @@ const Reviews = ({ className }) => {
               />
             </h1>
             <p className="text-base">
-              Discover the Impact of Our Products and Services Through Their
-              Testimonials
+              Discover the impact of our platform through testimonials from
+              fellow students.
             </p>
           </article>
 
