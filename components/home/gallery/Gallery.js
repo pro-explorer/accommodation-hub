@@ -72,37 +72,15 @@ const Gallery = () => {
   const shuffledImages = shuffleArray(images);
 
   const items = [
-    {
-      title: "Hotels",
-      images: 10,
-    },
-    {
-      title: "Resorts",
-      images: 7,
-    },
-    {
-      title: "Apartments",
-      images: 6,
-    },
-    {
-      title: "Villas",
-      images: 5,
-    },
-    {
-      title: "Hostels",
-      images: 4,
-    },
-    {
-      title: "Guest Houses",
-      images: 6,
-    },
-    {
-      title: "Beach Houses",
-      images: 4,
-    },
+    { title: "Student Residences", images: 8 },
+    { title: "Private Rentals", images: 10 },
+    { title: "University Hostels", images: 7 },
+    { title: "Shared Apartments", images: 6 },
+    { title: "Luxury Suites", images: 5 },
+    { title: "Budget Housing", images: 6 },
   ];
 
-  const [tab, setTab] = useState("Forest");
+  const [tab, setTab] = useState("Student Residences");
   const [counter, setCounter] = useState(9);
   const containerRef = useRef(null);
 
@@ -113,7 +91,7 @@ const Gallery = () => {
           <div className="flex flex-col gap-y-12">
             <article className="flex flex-col gap-y-4">
               <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-                <HighlightText>Accommodation</HighlightText> Gallery
+                <HighlightText>Student Housing</HighlightText> Gallery
                 <LoadImage
                   src="/assets/home-page/destination/underline.svg"
                   alt="arrow"
@@ -123,8 +101,9 @@ const Gallery = () => {
                 />
               </h1>
               <p className="text-base">
-                Browse our collection of popular accommodations, including
-                hotels, resorts, apartments, villas, hostels, and guest houses.
+                Browse our verified student accommodations, including university
+                hostels, private rentals, shared apartments, and budget-friendly
+                housing options.
               </p>
             </article>
           </div>

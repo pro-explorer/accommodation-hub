@@ -34,7 +34,7 @@ const PopularDestination = () => {
           <div className="flex flex-col gap-y-12">
             <article className="flex flex-col gap-y-4">
               <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-                <HighlightText>Destinations</HighlightText> By Month
+                <HighlightText>Popular</HighlightText> Locations
                 <LoadImage
                   src="/assets/home-page/destination/underline.svg"
                   alt="arrow"
@@ -44,8 +44,8 @@ const PopularDestination = () => {
                 />
               </h1>
               <p className="text-base">
-                Here are some of our popular tours across all of our
-                destinations
+                Explore the most sought-after student accommodations near Harare
+                Institute of Technology (HIT).
               </p>
             </article>
 

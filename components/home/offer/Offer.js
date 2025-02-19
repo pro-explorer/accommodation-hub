@@ -34,7 +34,7 @@ const Offer = () => {
         <div className="w-full h-full flex flex-col gap-y-12">
           <article className="flex flex-col gap-y-4">
             <h1 className="lg:text-5xl md:text-4xl text-3xl whitespace-normal">
-              <HighlightText>Offers</HighlightText> Explorer
+              <HighlightText>Special</HighlightText> Offers
               <LoadImage
                 src="/assets/home-page/destination/underline.svg"
                 alt="arrow"
@@ -44,7 +44,8 @@ const Offer = () => {
               />
             </h1>
             <p className="text-base">
-              Promotions, deals, and special offers for you
+              Explore exclusive discounts and special deals on student
+              accommodations.
             </p>
           </article>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4">

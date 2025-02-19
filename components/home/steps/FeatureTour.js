@@ -57,19 +57,16 @@ const FeatureTour = () => {
 
         <article className="flex flex-col gap-y-2.5">
           <h1 className="text-base line-clamp-2">
-            The most confidential Rooftop in Paris - View 360
+            Cozy One-Bedroom Apartment Near Campus
           </h1>
           <div className="flex flex-col gap-y-1">
-            <p className="text-sm pb-0">
-              20-30 September | By Dhaka, Bangladesh
-            </p>
+            <p className="text-sm pb-0">Available Now | Harare, Zimbabwe</p>
             <p className="text-sm pb-0 flex gap-x-0.5 items-baseline">
-              $<span className="text-primary text-lg">150.00</span> as{" "}
-              <span className="text-sm">Starter Pricing</span>
+              $<span className="text-primary text-lg">200.00</span> per month
             </p>
           </div>
           <span className="border group-hover:border-primary transition-colors delay-100 px-4 py-0.5 rounded-primary flex items-center text-xs w-fit">
-            Trip to France, Rome
+            Near Harare Institute of Technology
           </span>
           <div className="flex flex-row flex-wrap justify-between">
             <Button
@@ -107,20 +104,20 @@ const FeatureTour = () => {
                   <div className="flex flex-col gap-y-4">
                     <article className="flex flex-col gap-y-1.5">
                       <div className="flex flex-col gap-y-2">
-                        <p className="text-sm">Ongoing!</p>
+                        <p className="text-sm">Available!</p>
                         <h1 className="text-base line-clamp-2 font-semibold">
-                          Villa Borghese Luxury One BR apartment
+                          Luxury Apartment in the City Center
                         </h1>
                       </div>
                       <div className="flex flex-col gap-y-2">
-                        <p className="text-sm">40% complete</p>
+                        <p className="text-sm">60% occupied</p>
                         <p className="border h-1.5 w-full bg-gray-200 rounded">
                           <span className="h-full bg-primary block w-[40%] rounded"></span>
                         </p>
                       </div>
                     </article>
                     <span className="border group-hover:border-primary transition-colors delay-100 px-4 py-0.5 rounded flex items-center text-xs w-fit">
-                      Trip to France, Rome
+                      Near Harare Institute of Technology
                     </span>
                   </div>
                 </div>

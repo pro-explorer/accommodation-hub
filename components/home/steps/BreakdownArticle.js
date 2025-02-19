@@ -20,21 +20,20 @@ import { MdLocationCity, MdPayment } from "react-icons/md";
 const BreakdownArticle = () => {
   const items = [
     {
-      title: "Choose Location",
-      icon: <MdLocationCity className="w-8 h-8 text-primary" />,
-      description: "Start your journey by selecting your ideal destination.",
+      title: "Select Your Accommodation",
+      icon: <BiHome className="w-8 h-8 text-primary" />,
+      description: "Choose from verified listings near HIT for your stay.",
     },
     {
-      title: "Secure and Easy Payment",
+      title: "Secure Payment Process",
       icon: <MdPayment className="w-8 h-8 text-primary" />,
-      description:
-        "Effortless transactions for a worry-free travel experience.",
+      description: "Enjoy a hassle-free payment experience for bookings.",
     },
     {
-      title: "Reach Agency on Selected Date",
-      icon: <BiCar className="w-8 h-8 text-primary" />,
+      title: "Connect with Property Managers",
+      icon: <IoIosContact className="w-8 h-8 text-primary" />,
       description:
-        "Contact us to finalize your travel plans on the chosen date.",
+        "Reach out to landlords to finalize your accommodation details.",
     },
   ];
 
