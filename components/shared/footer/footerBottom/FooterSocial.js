@@ -30,13 +30,13 @@ const FooterSocial = () => {
   const items = [
     {
       id: 1,
-      name: "Linkedin",
+      name: "LinkedIn",
       icon: <BiLogoLinkedin className="text-lg" />,
       href: "https://www.linkedin.com/in/devhasibulislam",
     },
     {
       id: 2,
-      name: "Github",
+      name: "GitHub",
       icon: <BiLogoGithub className="text-lg" />,
       href: "https://www.github.com/devhasibulislam",
     },
@@ -66,7 +66,7 @@ const FooterSocial = () => {
     },
     {
       id: 7,
-      name: "Tiktok",
+      name: "TikTok",
       icon: <BiLogoTiktok className="text-lg" />,
       href: "https://www.tiktok.com/devhasibulislam",
     },

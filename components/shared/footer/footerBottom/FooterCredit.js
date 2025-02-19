@@ -25,14 +25,14 @@ const FooterCredit = () => {
           href="https://www.linkedin.com/in/saifulislam"
           className="text-primary hover:text-primary/50"
         >
-          @saifulislam
+          @pro
         </Link>{" "}
         &{" "}
         <Link
           href="https://www.devhasibulislam.vercel.app"
           className="text-primary hover:text-primary/50"
         >
-          @devhasibulislam
+          @brian-konji
         </Link>
       </p>
     </section>

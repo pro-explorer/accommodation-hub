@@ -1,13 +1,13 @@
 /**
  * Title: Write a program using JavaScript on FooterLogo
- * Author: Hasibul Islam
+ * Author: Kutenda Believe Samakande
  * Portfolio: https://devhasibulislam.vercel.app
  * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/in/devhasibulislam
- * Facebook: https://facebook.com/in/devhasibulislam
- * Instagram: https://instagram.com/in/devhasibulislam
- * Twitter: https://twitter.com/in/devhasibulislam
- * Pinterest: https://pinterest.com/in/devhasibulislam
+ * GitHub: https://github.com/devhasibulislam
+ * Facebook: https://facebook.com/devhasibulislam
+ * Instagram: https://instagram.com/devhasibulislam
+ * Twitter: https://twitter.com/devhasibulislam
+ * Pinterest: https://pinterest.com/devhasibulislam
  * WhatsApp: https://wa.me/8801906315901
  * Telegram: devhasibulislam
  * Date: 15, August 2023
@@ -23,10 +23,10 @@ const FooterLogo = () => {
       <article className="flex md:flex-col md:justify-normal md:items-start flex-row justify-between items-center gap-y-4">
         <Logo />
         <p className="text-xs md:block hidden">
-          Perfect for all kinds of travel agency. Including tours, hotel
-          booking, activity/event, travel experiences, online booking, room bnb,
-          villa rental, holiday rental, resort rental, cruises, car rentals,
-          real estate, flight ticket, and more.
+          Your ultimate platform for finding verified off-campus accommodation.
+          Catering to students' needs, it offers a wide range of listings,
+          including apartments, shared housing, villas, and hostels, ensuring a
+          secure and convenient booking experience.
         </p>
         <div className="lg:hidden block">
           <FooterPayment />
