@@ -17,8 +17,7 @@ export default function Home() {
     <main>
       <Head>
         <title>
-          Travel Landing Page by Travello - Comprehensive travel platform for
-          diverse booking needs
+          Accommodation Hub - Your Gateway to Verified Off-Campus Living
         </title>
       </Head>
       <Main>

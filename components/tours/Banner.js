@@ -48,14 +48,12 @@ const Banner = () => {
     >
       <article className="flex flex-col items-center gap-y-8">
         <h1 className="text-white text-center lg:text-7xl md:text-5xl text-xl">
-          Filter Your Required Tours
+          Find Your Perfect Accommodation
         </h1>
         <p className="lg:w-1/2 md:w-3/4 w-full text-white text-center lg:text-base md:text-sm text-xs">
-          The Best Selling Tour is an unforgettable journey that has captured
-          the hearts of travelers worldwide. This remarkable adventure offers an
-          unparalleled exploration of some of the most awe-inspiring
-          destinations on the planet, combining luxury and adventure in perfect
-          harmony
+          Discover a variety of verified off-campus accommodations tailored to
+          your needs. Our platform ensures a secure and user-friendly experience
+          for students seeking a home away from home.
         </p>
       </article>
 
