@@ -20,7 +20,7 @@ import { useGetFilteredRentsMutation } from "@/services/rent/rentApi";
 import { useSelector } from "react-redux";
 import { toast } from "react-hot-toast";
 
-const FilteredTours = () => {
+const FilteredAccommodations = () => {
   const filter = useSelector((state) => state.filter);
   const [addFilter, { data, isLoading, error }] = useGetFilteredRentsMutation();
   const tours = useMemo(() => data?.data || [], [data]);
@@ -52,11 +52,11 @@ const FilteredTours = () => {
             ))
           : tours.map((tour) => <Card key={tour._id} tour={tour} />)}
         {!isLoading && tours?.length === 0 && (
-          <span>No tours found for this filter !</span>
+          <span>No accommodations found for this filter !</span>
         )}
       </div>
     </section>
   );
 };
 
-export default FilteredTours;
+export default FilteredAccommodations;

@@ -19,7 +19,7 @@ import Main from "@/layouts/Main";
 import Head from "next/head";
 import React from "react";
 
-const Accommodations = () => {
+const AccommodationsPage = () => {
   return (
     <main>
       <Head>
@@ -29,7 +29,7 @@ const Accommodations = () => {
       </Head>
       <Main>
         <Banner />
-        <Accommodations />
+        <AccommodationsPage />
       </Main>
     </main>
   );
