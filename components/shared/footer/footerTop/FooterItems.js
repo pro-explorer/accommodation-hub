@@ -1,13 +1,13 @@
 /**
  * Title: Write a program using JavaScript on FooterItems
- * Author: Hasibul Islam
+ * Author: Kutenda Believe Samakande
  * Portfolio: https://devhasibulislam.vercel.app
  * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/in/devhasibulislam
- * Facebook: https://facebook.com/in/devhasibulislam
- * Instagram: https://instagram.com/in/devhasibulislam
- * Twitter: https://twitter.com/in/devhasibulislam
- * Pinterest: https://pinterest.com/in/devhasibulislam
+ * GitHub: https://github.com/devhasibulislam
+ * Facebook: https://facebook.com/devhasibulislam
+ * Instagram: https://instagram.com/devhasibulislam
+ * Twitter: https://twitter.com/devhasibulislam
+ * Pinterest: https://pinterest.com/devhasibulislam
  * WhatsApp: https://wa.me/8801906315901
  * Telegram: devhasibulislam
  * Date: 15, August 2023
@@ -24,8 +24,8 @@ const FooterItems = () => {
       href: [
         {
           id: 11,
-          name: "How to Book",
-          href: "/how-to-book",
+          name: "How to Find Accommodation",
+          href: "/how-to-find-accommodation",
         },
         {
           id: 12,
@@ -55,23 +55,23 @@ const FooterItems = () => {
       href: [
         {
           id: 21,
-          name: "Flight Finder",
-          href: "/flight-finder",
+          name: "Accommodation Listings",
+          href: "/accommodation-listings",
         },
         {
           id: 22,
-          name: "Hotels List",
-          href: "/hotels-list",
+          name: "Student Resources",
+          href: "/student-resources",
         },
         {
           id: 23,
-          name: "Train or Car Rental",
-          href: "/train-or-car-rental",
+          name: "Roommate Finder",
+          href: "/roommate-finder",
         },
         {
           id: 24,
-          name: "Tour Guide",
-          href: "/tour-guide",
+          name: "Safety Tips",
+          href: "/safety-tips",
         },
       ],
     },
@@ -106,7 +106,7 @@ const FooterItems = () => {
             <h2 className="text-lg">{name}</h2>
             <ul className="text-sm flex flex-col gap-y-1">
               {href.map(({ id, name, href }) => (
-                <li key={id} className=" font-light">
+                <li key={id} className="font-light">
                   <Link href={href}>{name}</Link>
                 </li>
               ))}
