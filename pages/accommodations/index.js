@@ -13,26 +13,26 @@
  * Date: 01, November 2023
  */
 
-import Banner from "@/components/tours/Banner";
-import Destinations from "@/components/tours/Destinations";
+import Banner from "@/components/accommodations/Banner";
+import Accommodations from "@/components/accommodations/Accommodations";
 import Main from "@/layouts/Main";
 import Head from "next/head";
 import React from "react";
 
-const Tours = () => {
+const Accommodations = () => {
   return (
     <main>
       <Head>
         <title>
-          Travel Landing Page by Travello - Filter Your Required Travels
+          Accommodation Hub System - Find Safe and Affordable Housing
         </title>
       </Head>
       <Main>
         <Banner />
-        <Destinations />
+        <Accommodations />
       </Main>
     </main>
   );
 };
 
-export default Tours;
+export default Accommodations;
