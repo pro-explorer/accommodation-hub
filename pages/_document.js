@@ -7,21 +7,21 @@ export default function Document() {
         {/* Primary Meta Tags  */}
         <meta
           name="title"
-          content="Travello - Comprehensive travel platform for diverse booking needs"
+          content="Accommodation Hub - A comprehensive platform for student accommodation needs"
         />
         <meta
           name="description"
-          content="For all kinds of travel agencies. Including tours, hotel booking, travel experiences, online booking, villa rental, holiday rental, and resort rental"
+          content="Find safe and verified off-campus accommodation for students, with features including listings, reviews, and seamless communication."
         />
         <meta
           name="keywords"
-          content="travel, booking, agencies, hotel, resort, rental, holiday, tours, villa, travello template"
+          content="accommodation, student housing, Harare Institute of Technology, off-campus housing, rental listings, reviews"
         />
         <meta name="robots" content="index, follow" />
         <meta content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
-        <meta name="author" content="Hasibul Islam" />
+        <meta name="author" content="Pro" />
 
         <meta
           name="google-site-verification"
@@ -32,19 +32,19 @@ export default function Document() {
         {/* Open Graph / Facebook Meta Tags */}
         <meta
           property="og:title"
-          content="Travello - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Accommodation Hub - Comprehensive platform for student accommodation needs"
         />
         <meta
           property="og:site_name"
-          content="Travello - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Accommodation Hub - Comprehensive platform for student accommodation needs"
         />
         <meta
           property="og:url"
-          content="https://travello-template.vercel.app"
+          content="https://accommodation-hub.vercel.app/"
         />
         <meta
           property="og:description"
-          content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
+          content="A platform to find safe and verified off-campus accommodation for students. Includes listings, reviews, and seamless communication with landlords."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -60,11 +60,11 @@ export default function Document() {
         />
         <meta
           name="twitter:title"
-          content="Travello - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Accommodation Hub - Comprehensive platform for student accommodation needs"
         />
         <meta
           name="twitter:description"
-          content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
+          content="Find safe and verified off-campus accommodation for students, with features including listings, reviews, and seamless communication."
         />
         <meta
           name="twitter:image"
@@ -74,11 +74,11 @@ export default function Document() {
         <meta name="pinterest-rich-pin" content="true" />
         <meta
           name="pinterest:title"
-          content="Travello - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Accommodation Hub - Comprehensive platform for student accommodation needs"
         />
         <meta
           name="pinterest:description"
-          content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
+          content="A platform to find safe and verified off-campus accommodation for students. Includes listings, reviews, and seamless communication with landlords."
         />
         <meta
           name="pinterest:image"
